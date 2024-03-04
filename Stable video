@@ -1,0 +1,22 @@
+!pip install gradio
+!pip install einops
+!pip install fire
+!pip install omegaconf
+!pip install clip
+!pip install transformers
+!pip install numpy
+!pip install torch
+!pip install opencv-python
+!pip install Pillow
+!pip install huggingface_hub
+!pip install pytorch_lightning
+!pip install kornia
+!pip install invisible-watermark
+!pip install open_clip_torch
+!pip install xformers
+
+!huggingface-cli login
+
+!git clone https://github.com/Stability-AI/generative-models.git
+
+!python -m scripts.demo.gradio_app
